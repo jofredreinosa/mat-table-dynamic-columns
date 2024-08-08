@@ -1,0 +1,47 @@
+.container {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__table {
+  width: 100%;
+}
+
+.container__columns-selector {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.columns-selector__icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.selector__icon__icon {
+  cursor: pointer;
+}
+
+.columns-selector__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.content__hint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox__check {
+  margin-right: 20px;
+}
